@@ -1,4 +1,5 @@
-# Kotlin_basic
+# Kotlin_basic <Do it! 코틀린 프로그래밍>
+
 Kotlin 공부하면서 작성한 기초 코드를 모아놓은 폴더 입니다.
 
 ### chapter02 - 변수와 자료형, 연산자 / 2020.10.04
