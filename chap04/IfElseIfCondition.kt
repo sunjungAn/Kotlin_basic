@@ -14,7 +14,7 @@ fun main(){
 		{
 			grade = 'B'
 		}
-	else if (score >= 70.0 && score <= 79.9)
+	else if (score in 70.0..79.9)
 		{
 			grade = 'C'
 		}
