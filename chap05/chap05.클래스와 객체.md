@@ -70,3 +70,22 @@ class Bird{
 > 또, 프로퍼터를 생략하고 매개변수에 바로 프로퍼터 표현을 쓸 수 있음. class Bird(val name: String, vla wing: Int, vla beak: String, vla color: String) 으로 작성할 수 있음
 
 
+#### init블록 
++ 클래스 이름 다음에 주 생성자를 표현하는 경우 클래스 블록안에 코드를 넣을 수 없다.(주 생성자 한!!) --> 초기화에 꼭 사용해야할 코드가 있다면 init블록을 만들어 그안에 넣기!
++ 예시는 BirdPrimaryInit.kt 참고
+
+
+#### 프로퍼티의 기본값 지정
+> 프로퍼티에 바로 기본값 지정하는 것
+```
+class Bird(var name: String = "NONAME", var wing:Int = 2, var beak:String, var color:String){
+  ...
+}
+
+fun main(){
+  val coco = Bird(beak = "long", color = "red") //기본값설정 되어있는 프로퍼티는 따로 설정 안해줌
+}
+```
+
+
+
