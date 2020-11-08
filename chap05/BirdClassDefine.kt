@@ -1,3 +1,4 @@
+package chap05.section1
 class Bird{
 	var name: String = "mybird"
 	var wing: Int = 2
